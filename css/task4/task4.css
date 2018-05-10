@@ -15,8 +15,8 @@ body{
     color: #fff;
     left: 0;
     right: 0;
-    text-align: center;
     line-height: 3rem;
+    text-align: center;
 }
 
 .register {
@@ -25,24 +25,19 @@ body{
     top: 0.5rem;
     padding-right: 3%;
     font-size: 1.6rem;
-    text-align: center;
 }
 .login_1{
     font-size: 1.8rem;
-    text-align: center;
     padding-top: 0.5rem
 }
 .close {
     position: absolute;
-    left: 0;
     top: 0.5rem;
     padding-left: 3%;
     font-size: 1.6rem;
 }
 input{
     height:2rem;
-    border: 1px solid #fff;
-    width: 85%;
     border-style: none;
     outline: none; 
     border-left: 1px solid gray;
@@ -52,7 +47,6 @@ input{
     margin-top: 0.8rem ;  
     font-size: 1.6rem;
     color: #e5e8ea  ;
-    height: 4rem;
     line-height: 4rem;
     background: #fff;
                                                                                                                                                                                                                                                                                                       
@@ -74,27 +68,26 @@ button{
     margin-top: 1rem;
     font-size: 1.8rem;
     border-style: none;
-    outline: none;
-    letter-spacing: 1rem;
 }
 .forgetpw{
     color: #5fc0cd;
     font-size: 1.6rem;
     position: absolute;
     right: 0;
+   text-decoration-line: none;
+   border-bottom: #5fc0cd 1px solid;
+   display: block;
 }
 .img_1{
     width: 14%;
     float: left;
     height:4rem;
-    background: #fff;
     position: relative;
 }
 .img_2{
     width:14%;
     float: left;
     height:4rem; 
-    background: #fff;
    position: relative;
    }
 img {
