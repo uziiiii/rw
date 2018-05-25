@@ -1,0 +1,20 @@
+html{
+    font-size: 625%;
+}
+body{
+    margin: 0;
+}
+p{
+    font-size: 0.2rem;
+}
+header{
+    height: 0.44rem;
+    width: 100%;
+    background-color: #5fc0cd;
+    position: fixed;
+    top: 0;
+}
+head{
+    height:0.44rem;
+    width: 100%;
+}
