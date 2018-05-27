@@ -176,11 +176,11 @@ footer{
     position: relative;
     left: 8.2rem;
 }
-.x-2{
+/* .x-2{
     width: 5rem;
     height: 5rem;
     display: inline-block;
-}
+} */
 .x-3{
     float: right;
     position: relative;
@@ -198,6 +198,9 @@ footer{
 }
 .img-4{
     margin: 0.65rem 0 0 0;
+}
+.img-5{
+    margin: 0.15rem 0 0 0;
 }
 .img-6{
     margin: 0.65rem 0 0 0;
