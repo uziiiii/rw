@@ -19,7 +19,7 @@ header{
     background-color: #55a8b3;
     border-radius: 0rem;
     border: none;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin: 0.4rem -0.5rem 0.4rem 0;
     color: #d4e9ec;
    
@@ -30,7 +30,7 @@ header{
     background-color: #fff;
     border-radius: 0rem;
     border: none;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin: 0.4rem 0 0.4rem -0.5rem;
     color: #5fc0cd;
    
@@ -42,7 +42,6 @@ header{
 
 }
 .s1{
-    display: inline-block;
     position: absolute;
     left: 90%;
     top: 42%;
@@ -52,11 +51,12 @@ main{
     position: relative;
     top: 4.4rem;
     width: 100%;
+    overflow: hidden;
 }
 .big{
     width: 100%;
     height: 4rem;
-    padding-top: 5px;
+    padding-top: 0.5rem;
 }
 .d1{
     width: 33.333%;
@@ -108,7 +108,6 @@ li{
     position: relative;
 }
 .img-1{
-    float: left;
     margin: 1.45rem 0.7rem 0rem 1.5rem;
     position: absolute;
     bottom: 0;
@@ -120,7 +119,6 @@ li{
     margin: 0 1.5rem 0.2rem 0;
 }
 .img-3{
-    float: left;
     margin: 0.2rem 0.7rem 0rem 1.5rem;
     position: absolute;
     top: 0;
@@ -133,7 +131,6 @@ li{
 
 }
 .p2{
-    float: left;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -142,7 +139,6 @@ li{
     color: #333;
 }
 .p3{
-    float: left;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -151,7 +147,6 @@ li{
     color: #e63b01;
 }
 .p4{
-    float: left;
     margin:0 0 0 3.5rem;
     font-size: 1.3rem;
     color: #ccc;
@@ -201,6 +196,8 @@ footer{
 }
 .img-5{
     margin: 0.15rem 0 0 0;
+    text-align: center;
+    line-height: 5rem;
 }
 .img-6{
     margin: 0.65rem 0 0 0;
