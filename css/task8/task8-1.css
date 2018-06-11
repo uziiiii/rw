@@ -1,0 +1,256 @@
+
+/*第一行模块-学习优势*/
+
+.first-row {
+    margin: 1rem 0;
+}
+
+.text-first {
+    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-first-aside {
+    border-left: 1px #dedede dashed;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-img {
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*第二行模块-学习步骤引导*/
+
+.step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .20rem 0;
+}
+
+.step-number {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: .80rem;
+    height: .80rem;
+    border-radius: .40rem;
+    min-width: .80rem;
+    box-shadow: 0 0 5px #999999;
+}
+
+.step p {
+    padding: 0 .10rem;
+    width: 1.4rem;
+}
+
+/*第三行模块-优秀学员展示*/
+
+.group-avatar {
+    margin: .60rem 0;
+}
+
+.avatar {
+    margin-top: .20rem;
+}
+
+.text-xinxi {
+    color: #999999;
+}
+
+/*第四行模块-战略合作企业*/
+
+.group-company {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: .50rem 0;
+}
+
+.company {
+    height: 1.8rem;
+    width: 2.2rem;
+    background: #ffffff;
+    border: 0;
+}
+
+.company:hover {box-shadow: 0 0 5px #999999;z-index: 9999}
+
+/*第五行模块-友情链接*/
+
+aside {
+    width: 100%;
+    background: #ffffff;
+}
+
+.group-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.group-links div {
+    line-height: .40rem;
+    white-space:nowrap;
+
+}
+
+/*媒体查询*/
+
+@media screen and (max-width: 768px) {
+
+    .text-first-aside {
+    border-left: 0;
+    }
+
+}
+html {
+    font-size: 625%;
+}
+
+body {
+    font-size: .16rem;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main {
+    background: #fafafa;
+}
+
+h4 {
+    text-align: center;
+    color: #000000;
+    font-weight: 550;
+}
+
+h2,h3 {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+a { 
+    text-decoration:none; 
+    color:#ffffff; 
+} 
+
+/*页眉*/
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: .40rem;
+    color: #29b078;
+}
+
+/*导航栏*/
+
+/*导航栏*/
+
+.nav-1{
+    background: #29b078;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.nav-x{
+    border: none;
+}
+.navbar-nav>li>a{
+    color: #fff!important;
+    border-bottom: #29b078 solid 2px;
+}
+.nav-2>li:hover>a{
+    border-bottom: #fff solid 2px;
+}
+.nav-2{
+    text-align: center;
+    border: none;
+}
+.nav-2>a{
+    background: #29b078;
+}
+.nav-3{
+    border: none;
+}
+.logo{
+    margin-top: .15rem;
+    margin-left: .15rem;
+}
+.bg>img{
+    min-width: 100%;
+}
+
+
+
+/*页脚*/
+
+footer {
+    color: #ffffff;
+    background: #29b078;
+    width: 100%;
+}
+
+.note {
+    padding-top: .30rem;
+}
+
+.weixin {
+    float: right;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.qr-code {
+    float: right;
+    margin-right: 22px;
+}
+
+.wx-qr {
+    margin-bottom: .20rem;
+}
+
+.about-we {
+    white-space: nowrap;
+    margin-top: .32rem;
+}
+
+.under-note {
+    color: #ffffff;
+    font-size: .12rem;
+    height: .30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #32c086;
+}
+
+
+/*媒体查询*/
+
+@media screen and (max-width: 768px) {
+    .weixin {
+        float: left;
+    }
+
+    .qr-code {
+        float: left;
+        margin-left: 22px;
+    }
+
+    .about-we {
+        margin-top: 0;
+    }
+}
