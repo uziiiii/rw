@@ -2,11 +2,11 @@
 /*第一行模块-学习优势*/
 
 .first-row {
-    margin: 1rem 0;
+    margin: 10rem 0;
 }
 
 .text-first {
-    height: 2.5rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,8 +20,8 @@
 }
 
 .box-img {
-    width: 1rem;
-    height: 1rem;
+    width: 10rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: .20rem 0;
+    margin: 2rem 0;
 }
 
 .step-number {
@@ -41,26 +41,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: .80rem;
-    height: .80rem;
-    border-radius: .40rem;
-    min-width: .80rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 4rem;
+    min-width: 4rem;
     box-shadow: 0 0 5px #999999;
 }
 
 .step p {
-    padding: 0 .10rem;
-    width: 1.4rem;
+    padding: 1rem;
+    width: 14rem;
 }
 
 /*第三行模块-优秀学员展示*/
 
 .group-avatar {
-    margin: .60rem 0;
+    margin: 6rem 0;
 }
 
 .avatar {
-    margin-top: .20rem;
+    margin-top: 2rem;
 }
 
 .text-xinxi {
@@ -73,12 +73,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: .50rem 0;
+    margin: 5rem 0;
 }
 
 .company {
-    height: 1.8rem;
-    width: 2.2rem;
+    height: 18rem;
+    width: 22rem;
     background: #ffffff;
     border: 0;
 }
@@ -99,7 +99,7 @@ aside {
 }
 
 .group-links div {
-    line-height: .40rem;
+    line-height: 4rem;
     white-space:nowrap;
 
 }
@@ -114,11 +114,11 @@ aside {
 
 }
 html {
-    font-size: 625%;
+    font-size: 62.5%;
 }
 
 body {
-    font-size: .16rem;
+    font-size: 1.6rem;
     color: #999999;
     margin: 0;
     padding: 0;
@@ -151,11 +151,10 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: .40rem;
+    height: 1.95rem;
     color: #29b078;
+    font-size: 0.7rem;
 }
-
-/*导航栏*/
 
 /*导航栏*/
 
@@ -164,6 +163,7 @@ a {
     border: none;
     border-radius: 0;
     margin-bottom: 0;
+    height: 5.2rem;
 }
 .nav-x{
     border: none;
@@ -186,8 +186,8 @@ a {
     border: none;
 }
 .logo{
-    margin-top: .15rem;
-    margin-left: .15rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
 }
 .bg>img{
     min-width: 100%;
@@ -204,7 +204,7 @@ footer {
 }
 
 .note {
-    padding-top: .30rem;
+    padding-top: 3rem;
 }
 
 .weixin {
@@ -215,25 +215,26 @@ footer {
 
 .qr-code {
     float: right;
-    margin-right: 22px;
+    margin-right: 2.5rem;
 }
 
 .wx-qr {
-    margin-bottom: .20rem;
+    margin-bottom: 2rem;
 }
 
 .about-we {
     white-space: nowrap;
-    margin-top: .32rem;
+    margin-top: 3.2rem;
 }
 
 .under-note {
     color: #ffffff;
-    font-size: .12rem;
-    height: .30rem;
+    font-size: 1.2rem;
+    height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border-top: 1px solid #32c086;
 }
 
@@ -247,7 +248,7 @@ footer {
 
     .qr-code {
         float: left;
-        margin-left: 22px;
+        margin-left: 2.5rem;
     }
 
     .about-we {

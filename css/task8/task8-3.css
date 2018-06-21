@@ -3,7 +3,7 @@
 }
 
 body {
-    font-size: .16rem;
+    font-size: 0.1rem;
     color: #999999;
     margin: 0;
     padding: 0;
@@ -19,6 +19,7 @@ main {
     align-items: center;
     height: .40rem;
     color: #29b078;
+    font-size: 0.08rem；
 }
 a { 
     text-decoration:none; 
@@ -75,11 +76,11 @@ footer {
 
 .qr-code {
     float: right;
-    margin-right: 22px;
+    margin-right: 0.05rem;
 }
 
 .wx-qr {
-    margin-bottom: .20rem;
+    margin-bottom: 0.05rem;
 }
 
 .about-we {
@@ -107,7 +108,7 @@ footer {
 
     .qr-code {
         float: left;
-        margin-left: 22px;
+        margin-left: 0.08rem;
     }
 
     .about-we {
@@ -126,18 +127,16 @@ footer {
 .text-head a {
     color: #000000;
 }
-
-#bg-all {
-    background: #29b078;
-    color: #ffffff;
-}
-
 .text-career {
     padding: .20rem 0;
     margin: 0;
     border-bottom: 1px #d0d6d9 solid;
+    word-break: keep-all;
 }
-
+.text-career span:hover{
+    background: #29b078;
+    color: #fff;
+}
 .text-career span {
     color: #000000;
     margin: 0 .20rem;
@@ -151,9 +150,10 @@ footer {
     height: .80rem;
 }
 
-h4 {
+h5 {
     display: inline-block;
     margin: 0;
+    font-weight: bold;
 }
 
 /*职业表单*/
@@ -184,14 +184,15 @@ h4 {
 }
 
 .introduce {
-    padding-top: .20rem;
+    padding-top: .10rem;
     padding-left: 1.5rem;
 }
 .introduce>span{
     word-wrap: break-word;
+    word-break: break-all;
 }
 
-.introduce h4 {
+.introduce h5 {
     padding: 0;
 }
 

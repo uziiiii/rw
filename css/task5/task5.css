@@ -29,7 +29,7 @@ main{
     top: 0.4rem;
     bottom: 0.56rem;
     width: 100%;
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 .per{
     width: auto;
