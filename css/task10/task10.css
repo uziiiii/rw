@@ -333,6 +333,9 @@ footer {
 /*媒体查询*/
 
 @media screen and (max-width: 992px) {
+    body{
+        font-size: 0.08rem;
+    }
 
     aside {
     margin-top: .20rem;
