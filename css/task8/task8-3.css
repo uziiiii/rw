@@ -17,7 +17,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: .40rem;
+    height: .20rem;
     color: #29b078;
     font-size: 0.08rem；
 }

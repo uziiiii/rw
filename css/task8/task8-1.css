@@ -147,13 +147,16 @@ a {
 
 /*页眉*/
 
+
+/*导航栏*/
+
 .header-main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 1.95rem;
+    height: 2rem;
     color: #29b078;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 /*导航栏*/
@@ -163,7 +166,6 @@ a {
     border: none;
     border-radius: 0;
     margin-bottom: 0;
-    height: 5.2rem;
 }
 .nav-x{
     border: none;
@@ -189,6 +191,7 @@ a {
     margin-top: 1.5rem;
     margin-left: 1.5rem;
 }
+
 .bg>img{
     min-width: 100%;
 }
