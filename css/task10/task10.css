@@ -173,14 +173,15 @@ label div {
     top: .03rem;
     width: .18rem; 
     height: .18rem;
-    background: url(images/circle-before.png);
+    background: url(image/circle-before.png);
+    background-repeat: no-repeat;
 } 
 
 .radio-mod {
     opacity: 0;
 } 
 
-input[type="radio"]:checked + div { background: url(images/circle-after.png); }
+input[type="radio"]:checked + div { background: url(image/circle-after.png) no-repeat; }
 
 select {
     margin: .20rem;
@@ -189,7 +190,7 @@ select {
     border: 1px #f3f3f3 solid;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: url(images/drop-down.png) no-repeat 95% center #ffffff;
+    background: url(image/drop-down.png) no-repeat 95% center #ffffff;
 }
 
 .caliber {
