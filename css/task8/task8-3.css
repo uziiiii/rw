@@ -152,7 +152,7 @@ footer {
 
 h5 {
     display: inline-block;
-    margin: 0;
+    margin-bottom: .2rem;
     font-weight: bold;
 }
 
@@ -242,9 +242,16 @@ h5 {
     color: #ffffff;
     margin-right: .15rem;
     display: none;
+    font-size: 0.16rem;
+    word-break: break-all;
+    text-align:justify;
 }
 
-.infor-unit:hover .bg-infor {display: block;}
+.infor-unit:hover .bg-infor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

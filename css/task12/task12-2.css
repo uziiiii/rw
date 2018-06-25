@@ -31,10 +31,11 @@ html {
       right: .10rem;
       width: 42px;
       height: 44px;
-      background-position: 0 -128px;
       transform: scale(0.5);
       display: inline-block;
-      background-image: url(../images/css_sprites.png); }
+      background-image: url(../task6/images/icon-1.png);
+      background-repeat: no-repeat;
+     }
   
   .nav {
     position: fixed;
@@ -101,21 +102,11 @@ html {
     top: .07rem;
     width: 24px;
     height: 24px;
-    background-position: 0px -23px;
     transform: scale(0.5);
     display: inline-block;
-    background-image: url(../images/css_sprites.png); }
-  
-  .icon3 {
-    position: relative;
-    top: .08rem;
-    width: 19px;
-    height: 23px;
-    background-position: 0 0;
-    transform: scale(0.5);
-    display: inline-block;
-    background-image: url(../images/css_sprites.png); }
-  
+    background-image: url(../task6/images/icon-2.png);
+    background-repeat: no-repeat;
+   }
   .date-add {
     color: #999999; }
   
@@ -163,33 +154,35 @@ html {
     top: .08rem;
     width: 19px;
     height: 23px;
-    background-position: 0 0;
     transform: scale(0.5);
     display: inline-block;
-    background-image: url(../images/css_sprites.png); }
+    background-image: url(../task6/images/icon-3.png); 
+    background-repeat: no-repeat;
+  }
   
   .icon4 {
     width: 46px;
     height: 40px;
-    background-position: 0 -47px;
     transform: scale(0.5);
     display: inline-block;
-    background-image: url(../images/css_sprites.png); }
+    background-image: url(../task6/images/icon-4.png); }
   
   .icon5 {
     width: 94px;
     height: 94px;
-    background-position: 0 -172px;
     transform: scale(0.5);
     display: inline-block;
-    background-image: url(../images/css_sprites.png); }
+    background-image: url(../task6/images/home.png);
+    background-repeat: no-repeat;
+   }
   
   .icon6 {
     width: 42px;
     height: 41px;
-    background-position: 0px -87px;
     transform: scale(0.5);
     display: inline-block;
-    background-image: url(../images/css_sprites.png); }
+    background-image: url(../task6/images/icon-5.png);
+    background-repeat: no-repeat; 
+  }
   
   /*# sourceMappingURL=task12-2.css.map */
