@@ -12,6 +12,9 @@ header{
     top: 0;
     z-index: 1;
 }
+a{
+   text-decoration: none;
+}
 .t1{
     margin: 1.05rem 0 1.05rem 1.1rem;
 }
@@ -40,7 +43,7 @@ header{
     color: #e6e6e6;
 }
 .select{
-    height: 38.8rem;
+    height: 42rem;
     margin: 0 1.5rem 0rem 1.5rem;
     position: relative;
     top: 3.5rem;
