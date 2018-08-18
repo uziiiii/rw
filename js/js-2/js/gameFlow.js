@@ -3,7 +3,7 @@ function over() {
     var gameOver = confirm("确认结束游戏吗？")
     if (gameOver == true) {
         sessionStorage.clear()
-        window.location.href = '../html/player-ratio.html'
+        window.location.href = '../html/play.html'
     }
 
 }

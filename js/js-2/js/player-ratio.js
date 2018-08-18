@@ -3,13 +3,9 @@ function clear() {
 }
 clear();
 //跳转到玩家配比页面
-function go() {
-    window.location.href = "../html/passon-1.html";
-}
-
 var inputNumber = document.getElementById("input-num");
 var rangeNumber = document.getElementById("range-num");
-
+var a = 0;
 //玩家人数输入框与滚动条同步
 function getName() {
     if (inputNumber.value >= 4 && inputNumber.value <= 18) {
@@ -25,6 +21,7 @@ function getName() {
 //滚动条改变玩家人数
 function change() {
     inputNumber.value = rangeNumber.value;
+    a = 1;
 }
 //减号按钮与滚动条同步
 function left_btn() {
@@ -102,4 +99,17 @@ function addPlayer() {
             element.appendChild(para);
         }
     }
+    a = 0
 }
+ var all = sessionStorage.getItem('all')
+$('.go').click(function () {
+    if (sessionStorage.getItem('all')) {
+        if (a == 0) {
+            window.location.href = "../html/passon-1.html";
+        } else {
+            alert("请设置正确的玩家人数")
+        }
+    }else{
+        alert('请输入玩家人数')
+    }
+})

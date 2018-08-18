@@ -60,6 +60,10 @@ header {
   background: #29bde0;
 }
 
+main {
+  margin-bottom: .88rem;
+}
+
 .process {
   padding: .2rem .2rem 0 .2rem;
 }
@@ -108,7 +112,7 @@ header {
   padding: 0;
   text-align: center;
   font-size: .16rem;
-  color: #29bde0;
+  color: rebeccapurple;
   background: #ffffff;
 }
 
@@ -117,7 +121,7 @@ header {
   padding: 0;
   text-align: center;
   font-size: .16rem;
-  color: #29bde0;
+  color: rebeccapurple;
   background: #ffffff;
 }
 
