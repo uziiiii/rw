@@ -2,7 +2,7 @@
 var list = document.getElementsByClassName('box');
 //定义一个索引数组
 var ArrList = [0,1,2,3,4,5,6,7,8,];
-
+var k = 0;
 //从一个给定的数组arr中随机返回num个不重复项
 function getArrayItems(arr,num) {
     //新建一个数组，将传入的数组复制过来，用于运算，而不要直接操作传入的数组
@@ -52,11 +52,15 @@ function changeColor() //点击开始闪
 }
 var start;//定义延时变量
 function start_flash() {
+    if(k == 0) {
     //延时函数，开始闪动
     window.clearInterval(start);//先清除延时，防止速度累加
     start = setInterval(changeColor,1000);
+    k++;
+     }
 }
 function end_flash() {
+    k = 0;
     //停止闪动（使用延时变量清除延时）
     window.clearInterval(start);
     for(var i = 0;i<ArrList.length;i++) {

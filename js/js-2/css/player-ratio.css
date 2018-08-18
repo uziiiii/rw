@@ -1,0 +1,211 @@
+/* css reset */
+
+html {font-size: 62.5%;}
+body {margin: 0;background: #efefef;}
+button {
+    padding: 0;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+p {margin: 0;}
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+/* css reset */
+
+/* 头部 header */
+
+header {
+    width: 100%;
+    height: 3rem;
+    font-size: 1.7rem;
+    background: #29bde0;
+    color: #fff;
+    
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+/* 头部 header */
+
+/* 主体 main */
+
+.player-ratio {
+    width: 100%;
+    height:22.5rem;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    background: #fbfbfb;
+}
+aside {
+    float: left;
+    width: 6.2rem;
+    height:22.5rem;
+    text-align: center;
+    line-height: 6.2rem;
+    font-size: 1.8rem;
+    writing-mode: vertical-lr;
+    background: #fff;
+    border-right:#e1e1e1 solid 1px;
+    color: #676767; 
+}
+#ratio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    float: left;
+    width: calc(100% - 6.4rem);
+    height: 19.6rem;
+}
+.killerCss {
+    display: inline-block;
+    min-width: 40px;
+    font-size: 1.3rem;
+    color: #a1a1a1;
+}
+.killerCss::before {
+    content: url(../image/ye-dot.png);
+    position: relative;
+    bottom: 2px;
+    margin-right: 5px;
+}
+.peopleCss {
+    display: inline-block;
+    min-width: 40px;
+    font-size: 1.3rem;
+    color: #a1a1a1;
+}
+.peopleCss::before {
+    content: url(../image/bu-dot.png);
+    position: relative;
+    bottom: 2px;
+    margin-right: 5px;
+}
+.click {
+    float: left;
+    width: calc(100% - 6.4rem);
+    height: 2.9rem;
+    border-top: #e1e1e1 solid 1px;
+    text-align: center;
+    line-height: 2.9rem;
+    
+}
+.click span {
+    font-size: 1.4rem;
+    color: #29bde0;
+   
+}
+.click img {
+    margin-left: 5px; 
+}
+.play-word {
+    height: 10rem;
+    margin-bottom: 3%;
+    background: #fff;
+}
+input {
+    width: 90%;
+    height: 4rem;
+    margin: 0.5rem 1.3rem 0 1.3rem;
+    border: none;
+    border-bottom: #e1e1e1 solid 1px;
+    outline: none;
+    font-size: 1.4rem;
+    
+}
+.bottom-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 2rem auto 0 auto;
+}
+input[name="word"]::-webkit-input-placeholder {
+    color:#e1e1e1;
+}
+.player-num {
+    height:9.5rem ;
+    margin-bottom: 4%;
+    background: #fff;
+    padding-top: 1rem;
+}
+.player-num>span {
+    font-size: 1.4rem;
+    color: #7f7f7f;
+}
+.num {
+    margin-left: 1rem;
+}
+#input-num {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    width: 4rem;
+    height: 2rem;
+    border: #e1e1e1 solid 1px;
+    border-radius: 5px;
+    background: #e1e1e1;
+    font-size: 1.7rem;
+    color: #fab344;
+    
+}
+input[type=range] {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 5px;
+    background: #fcc671;
+    outline:none;
+    cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 3.4rem;
+    height: 2rem;
+    background: url(../image/silding-shoe.png) no-repeat 0 0/cover;
+    border: none;
+    cursor: pointer;
+}
+.minus {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: url(../image/minus.png) no-repeat 0 0/cover;;
+    outline: none;
+    border: none;
+}
+.add {
+    width:1.2rem;
+    height:1.2rem;
+    background: url(../image/add.png) no-repeat 0 0/cover;;  
+    outline: none;
+    border: none;
+}
+/* 主体 main */
+
+/* 尾部 footer */
+
+button {
+    width: 100%;
+    height: 4.3rem;
+    text-align: center;
+    line-height: 4.3rem; 
+    font-size: 2rem;
+    letter-spacing: 4px;
+    background: #fab344;
+    color: #fff;
+   
+}
+
+/* 尾部 footer */
+
+

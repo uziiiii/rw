@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>玩家配比</title>
+    <link rel="stylesheet" href="../css/player-ratio.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="head">
+                <a href="../html/play.html">
+                    <img src="../image/back-icon.png" alt="">
+                </a>
+                <span>参数设置</span>
+                <a href="../html/play.html">
+                    <img src="../image/circled-help.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="player-ratio">
+                <aside>
+                    <span>玩家配比</span>
+                </aside>
+                <div id="ratio">
+
+                </div>
+                <div class="click" onclick="addPlayer()">
+                    <span> 点击设置
+                        <img src="../image/pencil.png" alt="">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="play-word">
+                <input type="text" name="word" placeholder="水民词组">
+                <input type="text" name="word" placeholder="幽灵词组">
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="player-num">
+                <span class="num">玩家人数</span>
+                <input type="number" id="input-num" onchange="getName()" onkeypress="return( /[\d]/.test(String.fromCharCode(event.keyCode) ) )"
+                    value="4">
+                <span>人</span>
+                <div class="bottom-box">
+                    <input type="button" class="minus" onclick="left_btn()">
+                    <input type="range" id="range-num" onchange="change()" name="change" value="4" min="4" max="18" step="1">
+                    <input type="button" class="add" onclick="right_btn()">
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="btn">
+                <button onclick="go()">
+                    去发牌
+                </button>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/player-ratio.js"></script>
+</body>
+
+</html>

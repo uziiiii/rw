@@ -90,7 +90,7 @@ h4 {color: #000000;}
 /* 页眉 */
 header {height: .40rem;color: $c29b;}
 /* 导航栏 */
-.nav-main { height: 1rem; background: $c29b;}
+.nav-main { height: 1rem; background: $c29b; }
 
 .btn-group {
     display: grid;
@@ -114,11 +114,17 @@ header {height: .40rem;color: $c29b;}
     >ul {
         line-height: .40rem;
         display: none;
-        >li {
-            border-top: 1px $cfa solid;
+         
+    >li {
             background: $c29b;
-            &:hover {background: $c99;
-            }
+            a {
+                display: inline-block;
+                width: 100%;
+                border-bottom: #29b078 solid 2px;
+            } 
+           >a:hover {border-bottom: #fff solid 2px;
+        }
+        
         }
     }
 }
@@ -145,19 +151,6 @@ aside {
 }
 
 /* 特殊模块 */
-
-.lunbo {
-    width: 100%;
-    animation: myfirst 3s;
-    animation-iteration-count:infinite;
-}
-
-@keyframes myfirst
-{
-0%   {opacity: 1;}
-100% {opacity: .5;}
-}
-
 .md1 {
     margin: .50rem 0;
     display: grid;
@@ -298,7 +291,7 @@ aside {
     .md8 {
         width: calc(100% - 1.2rem);
         position: relative;
-        >div {padding-left: calc(50% - .75rem)}
+        >div {padding-left: calc(50% - .5rem);}
     }
     .md9 {width: calc(100% - .60rem); margin-left: .10rem}
     .md10 {width: calc(100% - .60rem);}

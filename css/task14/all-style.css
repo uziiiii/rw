@@ -251,12 +251,17 @@ header {
 }
 
 .hb > ul > li {
-  border-top: 1px #fafafa solid;
   background: #29b078;
 }
 
-.hb > ul > li:hover {
-  background: #999999;
+.hb > ul > li a {
+  display: inline-block;
+  width: 100%;
+  border-bottom: #29b078 solid 2px;
+}
+
+.hb > ul > li > a:hover {
+  border-bottom: #fff solid 2px;
 }
 
 /* 页脚 */
@@ -290,21 +295,6 @@ aside {
 }
 
 /* 特殊模块 */
-.lunbo {
-  width: 100%;
-  animation: myfirst 3s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes myfirst {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: .5;
-  }
-}
-
 .md1 {
   margin: .50rem 0;
   display: grid;
@@ -532,7 +522,7 @@ aside {
     position: relative;
   }
   .md8 > div {
-    padding-left: calc(50% - .75rem);
+    padding-left: calc(50% - .5rem);
   }
   .md9 {
     width: calc(100% - .60rem);

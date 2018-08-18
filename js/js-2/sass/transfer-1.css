@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/*css reset*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  background: #29bde0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+/*css reset*/
+/*基础样式*/
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.dib {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*基础样式*/
+/*页面样式*/
+header {
+  height: 3rem;
+  width: 100%;
+  border-bottom: #74d4eb solid 1px;
+  background: #29bde0;
+}
+
+header span {
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+main .dath {
+  position: absolute;
+  left: 10rem;
+  top: -2rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: #fbb435 solid 1px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #f56b81;
+}
+
+main .playerId {
+  font-size: 2rem;
+  color: #29bde0;
+}
+
+main .word-group {
+  font-size: 2rem;
+  color: #f56b81;
+}
+
+main .tips-1 {
+  padding: 1.7rem 1.2rem 0 1.2rem;
+  height: 10rem;
+  font-size: 1.3rem;
+  color: #fca000;
+}
+
+main #content {
+  position: relative;
+  margin: 4.2rem auto 6.2rem auto;
+  height: 32.8rem;
+  width: 23.4rem;
+  border: #fff solid 5px;
+  background: #ffedc5;
+}
+
+main #content .tip {
+  height: 22.45rem;
+  text-align: center;
+  border-bottom: #fff solid 2px;
+}
+
+main #content .tip img {
+  margin: 2.9rem 0 1.9rem 0;
+}
+
+main #content-box {
+  position: relative;
+  margin: 4.2rem auto 6.2rem auto;
+  height: 32.8rem;
+  width: 23.4rem;
+  border: #fff solid 5px;
+  background: #ffedc5;
+}
+
+footer button {
+  display: inline-block;
+  margin: 0 auto;
+  height: 4.4rem;
+  width: 24.6rem;
+  font-size: 2.4rem;
+  color: #fff;
+  letter-spacing: 3px;
+  background: #fbb435;
+}

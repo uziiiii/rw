@@ -56,14 +56,15 @@ header {
   color: #ffffff;
   font-size: .17rem; }
 
-main {
+
+  main {
   position: fixed;
   top: .40rem;
   bottom: 1rem;
   width: 100%;
   overflow: scroll;
-  overflow-x: hidden;
-  /*导航栏*/ }
+  overflow-x: hidden;}
+  /*导航栏*/ 
   main > nav {
     display: flex;
     justify-content: space-between;
