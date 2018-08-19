@@ -101,15 +101,20 @@ function addPlayer() {
     }
     a = 0
 }
- var all = sessionStorage.getItem('all')
+var all = sessionStorage.getItem('all')
 $('.go').click(function () {
-    if (sessionStorage.getItem('all')) {
-        if (a == 0) {
-            window.location.href = "../html/passon-1.html";
-        } else {
-            alert("请设置正确的玩家人数")
-        }
+    // if (sessionStorage.getItem('all')) {
+    //     if (a == 0) {
+    //         window.location.href = "../html/passon-1.html";
+    //     } else {
+    //         alert("请设置正确的玩家人数")
+    //     }
+    // }else{
+    //     alert('请输入玩家人数')
+    // }
+    if (inputNumber.value != (document.getElementsByClassName("killerCss").length + document.getElementsByClassName("peopleCss").length)) {
+        alert("请设置正确的玩家人数")
     }else{
-        alert('请输入玩家人数')
+        window.location.href = "../html/passon-1.html";
     }
 })
