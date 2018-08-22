@@ -5,7 +5,6 @@ clear();
 //跳转到玩家配比页面
 var inputNumber = document.getElementById("input-num");
 var rangeNumber = document.getElementById("range-num");
-var a = 0;
 //玩家人数输入框与滚动条同步
 function getName() {
     if (inputNumber.value >= 4 && inputNumber.value <= 18) {
@@ -21,7 +20,6 @@ function getName() {
 //滚动条改变玩家人数
 function change() {
     inputNumber.value = rangeNumber.value;
-    a = 1;
 }
 //减号按钮与滚动条同步
 function left_btn() {

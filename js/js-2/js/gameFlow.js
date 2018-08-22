@@ -9,11 +9,8 @@ function over() {
 }
 //获取对象数组
 var obj = JSON.parse(sessionStorage.getItem("obj"))
-// var click = sessionStorage.getItem("click")
 var deathObj = JSON.parse(sessionStorage.getItem("deathObj"))
 var voteObj = JSON.parse(sessionStorage.getItem("voteObj"))
-console.log(deathObj)
-console.log(voteObj)
 var clickKill = JSON.parse(sessionStorage.getItem("clickKill"))
 var clickVote = JSON.parse(sessionStorage.getItem("clickVote"))
 //获取天数
@@ -53,9 +50,7 @@ if (JSON.parse(sessionStorage.getItem('kilClick'))) {
     kilClick = JSON.parse(sessionStorage.getItem('kilClick'))
 } else {
     kilClick = 2
-    // console.log(kilClick)
 }
-// console.log( JSON.parse(sessionStorage.getItem('kilClick')))
 //判断是否改变杀手杀人选项背景色
 if (kilClick == 1) {
     for (var i = 0; i < day; i++) {

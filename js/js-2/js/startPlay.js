@@ -37,7 +37,7 @@ sessionStorage.setItem('obj',JSON.stringify(obj))
 sessionStorage.setItem('day','1')
 // sessionStorage.setItem('click','0')
 var clickKill = 0
-var clickVote = 0
+var clickVote = 
 sessionStorage.setItem('clickKill',clickKill)
 sessionStorage.setItem('clickVote',clickVote)
 
